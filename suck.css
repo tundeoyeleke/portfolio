@@ -1,0 +1,44 @@
+body {
+  background-color: #f1f1f1;
+  font-family: monospace;
+}
+
+/*Global setting*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.red-box {
+  height: 4rem;
+  width: 4rem;
+  background-color: red;
+}
+
+.green-box {
+  height: 4rem;
+  width: 4rem;
+  background-color: green;
+}
+
+.blue-box {
+  height: 4rem;
+  width: 4rem;
+  background-color: blue;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: #808080;
+}
+
+#nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}

@@ -1,0 +1,14 @@
+/*Global Settings*/
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/*Global Settings end*/
+#nav-bar {
+  display: flex;
+  top: 0;
+  position: sticky;
+  padding: 1rem;
+  justify-content: space-between;
+}
