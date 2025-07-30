@@ -5,10 +5,14 @@
   box-sizing: border-box;
 }
 /*Global Settings end*/
+
+/*navbar style*/
 #nav-bar {
   display: flex;
+  font-family: roboto;
   top: 0;
   position: sticky;
   padding: 1rem;
   justify-content: space-between;
 }
+/*navbar styles end*/
